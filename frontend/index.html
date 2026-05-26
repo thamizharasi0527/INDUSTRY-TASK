@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startup Idea Validation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero section-fade">
+      <div class="hero-copy">
+        <span class="eyebrow">Startup Idea Validation</span>
+        <h1>Launch with confidence — validate ideas before you build.</h1>
+        <p>Analyze market demand, discover competitors, and generate AI-powered risks, opportunities, and fit scoring in seconds.</p>
+        <a class="btn" href="#analyzer">Try the Idea Analyzer</a>
+      </div>
+      <div class="hero-panel">
+        <div class="card highlight">
+          <h2>Market Fit Score</h2>
+          <p><strong>72%</strong> ready for customer discovery</p>
+        </div>
+        <div class="card stats-grid">
+          <div>
+            <span>SWOT</span>
+            <strong>AI-generated</strong>
+          </div>
+          <div>
+            <span>Trends</span>
+            <strong>Fast scoring</strong>
+          </div>
+          <div>
+            <span>Risk</span>
+            <strong>Actionable</strong>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="analyzer" class="analyzer section-fade">
+      <div class="panel">
+        <div class="panel-copy">
+          <span class="eyebrow">Interactive analyzer</span>
+          <h2>Submit your startup idea and get instant validation insights.</h2>
+          <p>Our API processes your idea asynchronously with market signals, competitor context, SWOT, trend scoring, and AI risk/opportunity outputs.</p>
+        </div>
+        <form id="idea-form">
+          <label for="idea">Startup Idea</label>
+          <textarea id="idea" name="idea" rows="4" placeholder="Enter a short idea description, e.g. AI coaching for remote sales teams" required></textarea>
+
+          <label for="market">Target market / industry</label>
+          <input id="market" name="market" placeholder="E-commerce, fintech, health, etc." required />
+
+          <button type="submit" class="btn btn-primary">Analyze Idea</button>
+        </form>
+      </div>
+      <div class="results" id="results">
+        <div class="result-card" id="status-card">
+          <h3>Analysis status</h3>
+          <p>Submit your idea to receive a market validation summary.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline section-fade">
+      <div class="timeline-header">
+        <span class="eyebrow">Market analysis</span>
+        <h2>Timeline-based insight stream</h2>
+        <p>See how demand, competitors, and opportunity evolve across your idea’s validation journey.</p>
+      </div>
+      <div class="timeline-grid">
+        <article class="timeline-step animate-on-scroll">
+          <span class="step-number">1</span>
+          <h3>Idea pulse</h3>
+          <p>We score your concept against current market demand and emerging signals.</p>
+        </article>
+        <article class="timeline-step animate-on-scroll">
+          <span class="step-number">2</span>
+          <h3>Competitor scan</h3>
+          <p>Automatic competitor analysis highlights threats and available white space.</p>
+        </article>
+        <article class="timeline-step animate-on-scroll">
+          <span class="step-number">3</span>
+          <h3>SWOT & risks</h3>
+          <p>AI crafts strengths, weaknesses, opportunities, and threats so founders can prioritize.</p>
+        </article>
+        <article class="timeline-step animate-on-scroll">
+          <span class="step-number">4</span>
+          <h3>Fit score</h3>
+          <p>Receive a practical market fit score and risk/opportunity summary for next moves.</p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer section-fade">
+      <p>Built for founders who want to validate first and build second.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
