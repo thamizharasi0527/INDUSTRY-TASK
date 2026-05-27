@@ -1,5 +1,6 @@
 # Startup Idea Validation Platform
 
+<<<<<<< HEAD
 A minimal startup landing page with an Express.js backend that simulates idea validation, competitor analysis, SWOT generation, trend scoring, and AI risk/opportunity outputs.
 
 ## Project structure
@@ -38,3 +39,26 @@ npm start
 
 - The frontend uses a simple fetch call to the backend API.
 - The backend includes in-memory caching and an asynchronous processing delay to simulate realistic validation workflows.
+=======
+## Problem Statement
+Founders often build products without validating demand. This platform analyzes startup ideas and gives market validation insights.
+
+## Features
+- Market demand analysis
+- Competitor insights
+- Audience validation
+- Risk assessment
+
+## Tech Stack
+Frontend:
+- HTML
+- CSS
+- JavaScript
+
+Backend:
+- Node.js
+- Express.js
+
+## Status
+Project in progress
+>>>>>>> fa491e5bf4616dec77d71b364f93f273f04d909d
